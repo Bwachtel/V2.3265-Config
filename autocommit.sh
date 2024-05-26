@@ -18,6 +18,9 @@ config_folder=~/printer_data/config
 # provided moonraker script 'data-path-fix.sh' to fix/update
 # older installs
 
+### Path to your ERCF folder, by default that is '~/ERCF'
+ERCF_folder=/home/pi/Happy-Hare/config
+
 ### Path to your Klipper folder, by default that is '~/klipper'
 klipper_folder=~/klipper
 
