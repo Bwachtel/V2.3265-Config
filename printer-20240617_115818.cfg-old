@@ -1,5 +1,4 @@
-[include mmu/base/*.cfg]
-[include mmu/optional/client_macros.cfg]
+#[include mmu/addons/mmu_erec_cutter.cfg]
 [include mainsail.cfg]
 [include /home/pi/printer_data/config/Macros/Include-File.cfg]
 #[include K-ShakeTune/*.cfg]
@@ -523,7 +522,7 @@ gcode:
 #*# pid_kd = 471.173
 #*#
 #*# [probe]
-#*# z_offset = -1.590
+#*# z_offset = -1.520
 #*#
 #*# [extruder]
 #*#
